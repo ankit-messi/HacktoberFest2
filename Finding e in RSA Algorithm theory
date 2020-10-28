@@ -1,0 +1,3 @@
+Since we know that Φ(n) = (p-1)(q-1), so Φ(n) should be divisible by p-1 and q-1. 
+Therefore p-1 and q-1 must be its factors.we have taken e to be next_prime(q). Since it is  next_prime(q), so e will be in the range of q<e< Φ(n).
+Since p,q are prime numbers, so  (p-1)*(q-1) cannot be divisible by the next_prime(q). since Φ(n) = (p-1)(q-1), so gcd(e, Φ(n)) will be one.  Hence, e should be equal to the next_prime(q).
